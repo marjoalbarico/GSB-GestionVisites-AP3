@@ -1,0 +1,22 @@
+.logoIndex{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;
+}
+
+.logoNav{
+    width: 15%;
+    overflow: visible;
+    display: inline-block;
+}
+
+.imgIconDoc{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+

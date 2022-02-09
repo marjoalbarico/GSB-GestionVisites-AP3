@@ -1,0 +1,287 @@
+body{
+    margin:10px;
+    background-color:#95c8d4;
+    font-family: 'Questrial';
+}
+
+.titreIndex{
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.vuRedPCon{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+
+/* NAV */
+.navbar {
+    overflow: hidden;
+    width: 97%;
+    background-color: #1d3557;
+    height: 46px;
+    margin-top: -80px;
+    margin-bottom: 30px;
+    float: right;
+}
+  
+.navbar a {
+    float: right;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.dropdown {
+    float: right;
+    overflow: hidden;
+    width: 130px;
+}
+  
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    width: 130px;
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:#00b4d8;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.vuProfP{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.profilH3{
+    text-align: center;
+}
+
+.headlisteMed{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.cardMed{
+    background-color: #D7E9F7;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.nomMedCard{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.buttonVoirPlus{
+    background-color: #5089C6;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.buttonVoirPlus:hover{
+    background-color: #125D98;
+}
+
+.hOneDetMed{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.buttonInfoMed{
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 300px;
+    background-color: #E4FBFF;
+    margin-top: 10px;
+    padding: 3px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #28527A;
+}
+
+.buttonInfoMed:hover{
+    background-color:#28527A;
+    color: #E4FBFF;
+}
+
+#tableMedecin {
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+  
+#tableMedecin td, #tableMedecin th {
+    border: 1px solid #39A2DB;
+    padding: 8px;
+    font-size: 20px;
+}
+  
+#tableMedecin tr:nth-child(even){
+    background-color: #CCF2F4;
+}
+
+#tableMedecin tr:nth-child(odd){
+    background-color: #CCF2F4;
+}
+
+#tableMedecin tr:first-child{
+    background-color: #1597BB; 
+}
+  
+#tableMedecin th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+#nomTableMed{
+    text-align: center;
+    font-size: 30px;
+}
+
+.classRapMedCard{
+    background-color: white;
+    padding: 5px 5px 10px 30px;
+    margin-bottom : 10px;
+    font-size: 20px;
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.buttonModifierRap{
+    text-decoration: none;
+    text-align: center;
+    width: 250px;
+    background-color: #E4FBFF;
+    margin-top: -15px;
+    padding: 3px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #28527A;
+    float: right;
+    border-style: solid;
+    border-color: #28527A;
+    margin-right: 30px;
+}
+
+.buttonModifierRap:hover{
+    background-color:#28527A;
+    color: #E4FBFF;
+}
+
+.divRapportMedecin{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.buttonModi{
+    background-color: #5089C6;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    float:right;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.buttonModi:hover{
+    background-color: #125D98;
+}
+
+.classRapMedCard2{
+    background-color: white;
+    padding: 5px 5px 5px 30px;
+    margin-bottom : 15px;
+    margin-left: 60px;
+    font-size: 20px;
+    display: inline-flex;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.buttonModiRapMed{
+    text-align: center;
+    display: block;
+    border-style: solid;
+    width: 40%;
+    margin-left: 300px;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #28527A;
+}
+
+.buttonModiRapMed:hover{
+    background-color: #28527A;
+    color: white;
+}
+
+.pMedCard{
+    margin-bottom: 3px;
+    padding-bottom: 10px;
+}
